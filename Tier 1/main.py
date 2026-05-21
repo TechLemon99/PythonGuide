@@ -4,11 +4,11 @@
 # Module 1: First Steps
 print("hi")
 
-lemon = "hi"
+lemon = "portugal"
 print(lemon)
 
 # Module 2: Basics
-name = 'lemon'
+name = 'levin'
 age = 12
 
 print('{0} is {1} years old as of Jan 2022'.format(name, age))
