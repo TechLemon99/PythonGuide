@@ -11,4 +11,3 @@ last_name_initial = last_name[0:1]
 
 print('Your initials are: ' + first_name_initial \
 	+ middle_name_initial + last_name_initial)
-

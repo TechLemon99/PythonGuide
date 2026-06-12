@@ -38,7 +38,7 @@ for n in range(6):
     print(n)
 
 # lists
-mylist = ["this","is","a","list"]
+mylist = ["this", "is", "a", "list"]
 print(mylist[0])
 mylist.append(1)
 print(mylist)

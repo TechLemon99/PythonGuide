@@ -7,4 +7,4 @@ def print_hello(name: str) -> str:
 	Returns:
 		str: The greeting
 	"""
-	print('Hello, ' + name)
+    print('Hello, ' + name)

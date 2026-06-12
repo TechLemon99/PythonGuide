@@ -1,23 +1,9 @@
-import os
-import time
-
-def clear_console():
-    """Clears the console screen."""
-    # Check the operating system
-    if os.name == 'nt':  # For Windows
-        _ = os.system('cls')
-    else:  # For macOS and Linux
-        _ = os.system('clear')
-
 adj = ["red", "big", "tasty"] # lists
 fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
   for y in fruits:
     print(x, y)
-
-time.sleep(3)
-clear_console()
 
 my_list = ['apple', 'banana', 'cherry']
 print(my_list[0])  # Output: apple

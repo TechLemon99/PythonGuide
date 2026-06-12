@@ -12,9 +12,7 @@ root.geometry('400x350+850+200')
 root.config(bg='tomato')
 
 # Setup data with Matplotlib
-big_mac_df = pd.read_csv('data/big_mac_aud.csv',
-                            header=None,
-                            names=['Country', 'Local', 'AUD', 'Date'])
+big_mac_df = pd.read_csv('Tier 5 - Tkinter/data/big_mac_aud.csv', header=None, names=['Country', 'Local', 'AUD', 'Date'])
 
 # Define functions
 def showMean():
@@ -26,13 +24,7 @@ def showMedian():
     messagebox.showinfo('Mean', f'The mean price of a Big Mac in AUD is {aud_median}')               
 
 def showBigMac():
-    big_mac_df.plot(
-                    kind='bar',
-                    x='Country',
-                    y='AUD',
-                    color='blue',
-                    alpha=0.3,
-                    title='Cost of a Big Mac in AUD')
+    big_mac_df.plot(kind='bar', x='Country', y='AUD', color='blue', alpha=0.3, title='Cost of a Big Mac in AUD')
     plt.tight_layout()
     plt.show()
 

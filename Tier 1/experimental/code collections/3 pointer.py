@@ -1,5 +1,4 @@
 def checkUsername(username: str) -> bool:
-
     # Rule 1: Length check
     if len(username) > 8:
         return False
