@@ -12,13 +12,13 @@ print(lemon)
 # -------------------------------------------------------------------------------------------------------------------------
 
 # Module 2: Basics
-name = 'levin'
+name = 'Lemon'
 age = 12
 
 print('{0} is {1} years old as of Jan 2022'.format(name, age))
 print('{} was {} years old as of Jan 2022'.format(name, age))
 print('{name} was {age} years old as of Jan 2022'.format(name=name, age=age))
-print(f'{name} is {str(age)} years old as of Jan 2022') # Note these 2 are the same, f string came out as of Py 3.6
+print(f'{name} is {str(age)} years old as of Jan 2022') # does the same thing as above, f string came out as of Py 3.6
 print(name + ' is ' + str(age) + ' years old as of Jan 2022') # This works too
 
 # -------------------------------------------------------------------------------------------------------------------------
@@ -67,7 +67,7 @@ print('{0:.3f}'.format(1.0/3))
 # (^) to 11 width '___hello___'
 print('{0:_^11}'.format('hello'))
 # keyword-based 'Swaroop wrote A Byte of Python'
-print('{name} plays {book}'.format(name='pixel', book='roblox'))
+print('{name} plays {game}'.format(name='Lemon', game='roblox'))
 
 # Since we are discussing formatting, note that print always ends with an invisible "new line" character (\n) so that repeated calls to print will all print on a separate line each. To prevent this newline character from being printed, you can specify that it should end with a blank:
 

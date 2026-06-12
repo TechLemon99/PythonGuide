@@ -1,6 +1,6 @@
 while True:
     try:
-        temp = int(input("Temperature > "))
+        temp = int(input("Temperature: "))
         
         if temp < 0:
             print("FREEZING!")
@@ -11,7 +11,7 @@ while True:
         elif temp <= 35:
             print("WARM!")
         elif temp == 67:
-            print("SIX SEVEN 👋🤚🖐️✋🖖🫱🫲🫳🫴👌🤏✌️(u lowk dead if ts real twin 💔🥀)")
+            print("SIX SEVEN 👋🤚🖐️✋🖖🫱🫲🫳🫴👌🤏✌️ (u lowk dead if ts real twin 💔🥀)")
         else:
             print("HOT!")
     except ValueError:

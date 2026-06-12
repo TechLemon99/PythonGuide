@@ -49,14 +49,10 @@ class StartPage(tk.Frame):
         label = tk.Label(self, text="Select Character", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
 
-        button1 = tk.Button(self, text="Gandalf",
-                            command=lambda:[self.selectGandalf(), controller.show_frame("Movement")])
-        button2 = tk.Button(self, text="Gimli",
-                            command=lambda:[self.selectGimli(), controller.show_frame("Movement")])
-        button3 = tk.Button(self, text="Legolas",
-                            command=lambda:[self.selectLegolas(), controller.show_frame("Movement")])
-        button4 = tk.Button(self, text="Aragorn",
-                            command=lambda:[self.selectAragorn(), controller.show_frame("Movement")])
+        button1 = tk.Button(self, text="Gandalf", command=lambda:[self.selectGandalf(), controller.show_frame("Movement")])
+        button2 = tk.Button(self, text="Gimli", command=lambda:[self.selectGimli(), controller.show_frame("Movement")])
+        button3 = tk.Button(self, text="Legolas", command=lambda:[self.selectLegolas(), controller.show_frame("Movement")])
+        button4 = tk.Button(self, text="Aragorn", command=lambda:[self.selectAragorn(), controller.show_frame("Movement")])
         button1.pack()
         button2.pack()
         button3.pack()
@@ -126,20 +122,16 @@ class Movement(tk.Frame):
         # Initialize game board and display
         self.update_board_display()
 
-        buttonN = tk.Button(self, text="North",
-                           command=lambda:[self.moveNorth()])
+        buttonN = tk.Button(self, text="North", command=lambda:[self.moveNorth()])
         buttonN.pack()
 
-        buttonS = tk.Button(self, text="South",
-                           command=lambda:[self.moveSouth()])
+        buttonS = tk.Button(self, text="South", command=lambda:[self.moveSouth()])
         buttonS.pack()
 
-        buttonE = tk.Button(self, text="East",
-                           command=lambda: [self.moveEast()])
+        buttonE = tk.Button(self, text="East", command=lambda: [self.moveEast()])
         buttonE.pack()
 
-        buttonW = tk.Button(self, text="West",
-                           command=lambda: [self.moveWest()])
+        buttonW = tk.Button(self, text="West", command=lambda: [self.moveWest()])
         buttonW.pack()
 
     def update_board_display(self):

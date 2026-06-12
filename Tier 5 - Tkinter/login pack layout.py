@@ -13,7 +13,7 @@ login.pack(ipady=5, fill='x')  # Add the label to the window and make it visible
 login.config(font=('Font', 30))  # Set the font and size of the label text
 
 # Load and display an image
-image = PhotoImage(file='images/moose.png')  # Load an image from a file
+image = PhotoImage(file='Tier 5 - Tkinter/images/moose.png')  # Load an image from a file
 img_resize = image.subsample(5, 5)  # Resize the image
 Label(root, image=img_resize, bg='white', relief=SUNKEN).pack(pady=5)  # Add the image to the window
 
@@ -21,7 +21,7 @@ Label(root, image=img_resize, bg='white', relief=SUNKEN).pack(pady=5)  # Add the
 def washDog():
     window = Toplevel(root)  # Create a new top-level window
     window.title('Dog Washed!')  # Set the title of the new window
-    image = PhotoImage(file='images/clean moose.png')  # Load an image from a file
+    image = PhotoImage(file='Tier 5 - Tkinter/images/clean moose.png')  # Load an image from a file
     image = image.subsample(2, 2)  # Resize the image
 
     original = Label(window, image=image)  # Create a label to display the image
