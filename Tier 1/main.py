@@ -1,5 +1,7 @@
 # Swaroop - A Byte Of Python - Code Learning Session
-# By ProLemon99
+# By Swaroop & TechLemon99
+
+# -------------------------------------------------------------------------------------------------------------------------
 
 # Module 1: First Steps
 print("hi")
@@ -7,13 +9,19 @@ print("hi")
 lemon = "portugal"
 print(lemon)
 
+# -------------------------------------------------------------------------------------------------------------------------
+
 # Module 2: Basics
 name = 'levin'
 age = 12
 
 print('{0} is {1} years old as of Jan 2022'.format(name, age))
+print('{} was {} years old as of Jan 2022'.format(name, age))
+print('{name} was {age} years old as of Jan 2022'.format(name=name, age=age))
 print(f'{name} is {str(age)} years old as of Jan 2022') # Note these 2 are the same, f string came out as of Py 3.6
 print(name + ' is ' + str(age) + ' years old as of Jan 2022') # This works too
+
+# -------------------------------------------------------------------------------------------------------------------------
 
 # Module 3: Operators and Expressions
 a = 2

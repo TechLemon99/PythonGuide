@@ -13,7 +13,7 @@ text.pack() # Pack fits the size of the window to the text, 'packing' the text i
 text2 = Label(root, text="- Patrick Star")
 text2.pack()
 
-patrick = PhotoImage(file="images/patrick.png") # Loads the image into a variable called 'patrick'
+patrick = PhotoImage(file="Tier 5 - Tkinter/images/patrick.png") # Loads the image into a variable called 'patrick'
 patrick_label = Label(root, image=patrick) # Stores label into 'patrick_label' variable and attaches it to 'patrick' image. 
 patrick_label.pack() # Packs the image by accessing its label, similar to the text.
 

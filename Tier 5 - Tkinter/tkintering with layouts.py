@@ -18,7 +18,7 @@ right_frame.grid(row=0, column=1, padx=10, pady=5)
 Label(left_frame, text="Moose the Malamute", bg="skyblue3").grid(row=0, column=0, padx=5, pady=5)
 
 # Load image to be 'edited'
-image = PhotoImage(file="images/moose.png")
+image = PhotoImage(file="Tier 5 - Tkinter/images/moose.png")
 original = image.subsample(3, 3)
 Label(left_frame, image=original).grid(row=0, column=0, padx=5, pady=5)
 

@@ -15,7 +15,7 @@ def volumeDown():
 def turnOn():
     window = Toplevel(root)  # Create a new top-level window
     window.title('TV')  # Set the title of the new window
-    image = PhotoImage(file='images/moose.png')  # Load an image from a file
+    image = PhotoImage(file='Tier 5 - Tkinter/images/moose.png')  # Load an image from a file
 
     original = Label(window, image=image)  # Create a label to display the image
     original.image = image  # Keep a reference to the image to prevent garbage collection
@@ -30,8 +30,8 @@ def imgBtn(imgpath, sub_no, cmd):
     return btn  # Return the button
 
 # Create a TV remote
-turn_on = imgBtn('images/on.png', 8, turnOn)  # Create a button to turn on the TV
-turn_off = imgBtn('images/off.png', 10, root.quit)  # Create a button to quit the application
+turn_on = imgBtn('Tier 5 - Tkinter/images/on.png', 8, turnOn)  # Create a button to turn on the TV
+turn_off = imgBtn('Tier 5 - Tkinter/images/off.png', 10, root.quit)  # Create a button to quit the application
 
 volume = Label(text="VOLUME")  # Create a label for volume control
 vol_up = Button(root, text="+", command=volumeUp)  # Create a button to increase the volume
